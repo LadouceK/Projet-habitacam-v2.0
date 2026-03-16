@@ -1,0 +1,13 @@
+#ifndef NOTIFICATION_H
+#define NOTIFICATION_H
+
+/* Module Notification - HABITACAM v2.0
+   Auteur : WANDJOU
+*/
+
+void notificationSucces(const char *message);
+void notificationErreur(const char *message);
+void notificationInfo(const char *message);
+void notificationReservation(const char *message);
+
+#endif
